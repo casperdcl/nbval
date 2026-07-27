@@ -25,6 +25,7 @@ setup(
         'pytest >= 7',
         'jupyter_client',
         'nbformat',
+        "fastjsonschema!=2.22.0; python_version<'3.10'", # https://github.com/horejsek/python-fastjsonschema/issues/211
         'ipykernel',
         'coverage',
     ],
